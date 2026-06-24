@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "myFont";
+    src: url();
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
