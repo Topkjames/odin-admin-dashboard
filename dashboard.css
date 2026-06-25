@@ -22,8 +22,9 @@ body {
   border: 2px solid #1992d4;
   grid-column: 1 / 2;
   grid-row: 1 / 4;
+  gap: 70px;
   color: white;
-  padding: 10px;
+  padding: 15px 20px;
 }
 
 .header {
@@ -55,21 +56,57 @@ body {
   border: 2px solid magenta;
 }
 
+.icon-white {
+  fill: white;
+  width: 25px;
+  height: 25px;
+}
+
 .dashboard {
   display: grid;
+  grid-row: 1 / 2;
   grid-template-columns: 50px 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  gap: 5px;
 }
 
 .icon-large {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   fill: currentColor;
   flex-shrink: 0;
 }
 
 .bold-dashboard {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   letter-spacing: 1px;
   width: 100%;
 }
+
+.nav {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.home-cont {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-text {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.settings {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px;
+  padding: 0 10px;

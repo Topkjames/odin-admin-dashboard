@@ -1,17 +1,16 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
     <link rel="icon" href="/assets/images/dashboard-icon.png">
     <link rel="stylesheet" href="dashboard.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
     <svg style="display: none;">
         <symbol id="dashboard-icon" viewBox="0 0 24 24">
             <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
@@ -22,7 +21,7 @@
                 d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" />
         </symbol>
 
-        <symbol id="shield-lock" viewBox="0 0 24 24">
+        <symbol id="shield-icon" viewBox="0 0 24 24">
             <path
                 d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.1 14.8,9.5V11C15.4,11 16,11.6 16,12.3V15.8C16,16.4 15.4,17 14.7,17H9.2C8.6,17 8,16.4 8,15.7V12.2C8,11.6 8.6,11 9.2,11V9.5C9.2,8.1 10.6,7 12,7M12,8.2C11.2,8.2 10.5,8.7 10.5,9.5V11H13.5V9.5C13.5,8.7 12.8,8.2 12,8.2Z" />
 
@@ -107,10 +106,78 @@
                 </svg>
                 <span class="bold-dashboard">Dashboard</span>
             </div>
+
+            <div class="nav">
+
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#home-icon">
+                    </svg>
+                    <span class="nav-text">Home</span>
+                </div>
+
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#profile-icon">
+                    </svg>
+                    <span class="nav-text">Profile</span>
+                </div>
+
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#message-icon">
+                    </svg>
+                    <span class="nav-text">Message</span>
+                </div>
+
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#clock-time-icon">
+                    </svg>
+                    <span class="nav-text">History</span>
+                </div>
+
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#task-icon">
+                    </svg>
+                    <span class="nav-text">Task</span>
+                </div>
+
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#community-icon">
+                    </svg>
+                    <span class="nav-text">Communities</span>
+                </div>
+                
+            </div>
+
+            <div class="settings">
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#cog-icon">
+                    </svg>
+                    <span class="nav-text">Settings</span>
+                </div>
+
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#comment-question-icon">
+                    </svg>
+                    <span class="nav-text">Support</span>
+                </div>
+
+                <div class="home-cont">
+                    <svg class="icon icon-white">
+                        <use href="#shield-icon">
+                    </svg>
+                    <span class="nav-text">Privacy</span>
+                </div>
+            </div>
         </div>
 
-        <div class="nav"></div>
-        <div class="settings"></div>
+
 
         <div class="header"></div>
 
@@ -119,5 +186,6 @@
         <div class="announcement"></div>
         <div class="trending"></div>
     </div>
-  </body>
+</body>
+
 </html>
